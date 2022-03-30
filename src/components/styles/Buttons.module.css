@@ -1,0 +1,28 @@
+
+
+.container{
+    width: 100%;
+
+}
+.innercontainer{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.innercontainer button{
+    font-size: 15px;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    background-color: #fe2415;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    border-color: transparent;
+}
+.innercontainer button:hover{
+background: rgb(255 139 139 / 48%);
+color: black;
+
+
+}

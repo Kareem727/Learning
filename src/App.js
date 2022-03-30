@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import Root from './pages/Root';
+import cookies from 'js-cookie';
+import localStorage from 'local-storage';
 
+const languages = [
+  {
+    id: '1',
+    code: 'fr',
+    name: 'Arabic',
+    country_name: 'sa',
+    dir: 'rtl'
+  },
+  {
+    id: '2',
+    code: 'en',
+    name: 'English',
+    country_name: 'us'
+  },
+  
+]
 function App() {
+  const currentCode = cookies.get('i18next') || 'ar'
+  const currentLanguage = languages.find(l => l.code == currentCode)
+  useEffect(() =>{
+    document.body.dir = currentLanguage.dir || 'ltr'
+  },[currentLanguage]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+<Root />
+
+     </div>
   );
 }
 

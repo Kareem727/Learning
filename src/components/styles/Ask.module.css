@@ -1,0 +1,22 @@
+.containerr{
+    width: 90%;
+    margin-top: 10%;
+}
+.innerContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.innerContainer .section{
+    margin-top: 5%;
+}
+.innerContainer div h1{
+    font-size: 25px;
+}
+
+.innerContainer div h2{
+    font-size: 17px;
+
+}
+.innerContainer div p{
+    font-size: 14px;
+}

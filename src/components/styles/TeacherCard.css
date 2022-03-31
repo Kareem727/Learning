@@ -1,11 +1,33 @@
 .container{
   width: 100%;
+  display: flex;
  }
 
 .innerclass{
+  text-align: center;
+
   margin-left: 10%;
-  margin-right: 10%;
   margin-bottom: 3%;
+}
+.innerCon2{
+  width: 200px;
+  height: 254px;
+background-color: #fff;
+box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+.innerCon2Flex{
+  
+  margin: 10%;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+.innerCon2Flex h2{
+  cursor: pointer;
+}
+.innerCon2Flex h2:hover{
+  color: #ff4338;
 }
 .search-results-container {
     display: flex;
@@ -52,9 +74,9 @@
     padding: 25px 25px 20px;
     width: 555px;
     min-height: 254px;
-    border-radius: 6px;
+    border-radius: 6px 0px 0px 6px;
     background: #fff;
-    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.1);
     cursor: pointer;
   }
   .search-teacher-card_right {

@@ -52,8 +52,11 @@ const TeacherCard =()=> {
   
 
   return (
+    
       <div className='container'>
+        
       <div className='innerclass'>
+      
     <div  className="search-teacher-card_left">
     <div className="search-teacher-card_left__top">
       <div className="search-teacher-card_left__top__avatar">
@@ -119,7 +122,16 @@ const TeacherCard =()=> {
       </div>
       {/* <i className="teacher-card-favorite"></i> */}
     </div>
+    
   </div>
+  
+   </div>
+   <div className='innerCon2'>
+     <div className='innerCon2Flex'>
+       <h2>Intro</h2>
+       <h2>About</h2>
+       <h2>Calender</h2>
+     </div>
    </div>
   </div>
   )

@@ -1,3 +1,17 @@
 .WrapperContainer{
     margin-top: 300%;
   }
+
+  .FindTeacher {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .FindTeacher h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  .FindTeacher h2{
+    font-size: 15px;
+  }

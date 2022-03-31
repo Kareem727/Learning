@@ -1,0 +1,50 @@
+.Container{
+    position: relative;
+}
+
+.text-box{
+    
+    background-image: url;
+    background-color: #6d7781;
+    margin-bottom: 15%;
+    width: 100%;
+    color: #ac190f;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     }
+    .background{
+        position: relative;
+        background-size: cover;
+        object-fit: cover;
+    position: relative;
+    }
+    .inner{
+        padding: 15% ;
+    }
+    .text-box h1{
+    font-size: 60px;
+    }
+    .text-box p{
+        font-size: 20px;
+    margin-top: 10px;
+    color:white;
+    margin-bottom: 5%;
+    }
+    
+    .buut{
+        border: 1px solid white;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 12px 30px;
+        font-size: 13px;
+        background: transparent;
+        cursor: pointer;
+     }
+    .buut:hover{
+        color: white;
+        transition-property: .5s;
+        transition: 1s;
+    background-color: #ac190f;
+    }

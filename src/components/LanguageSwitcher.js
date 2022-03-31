@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/NavBar.css'
 import { useTranslation } from "react-i18next";
 
 function LanguageSwitcher() {

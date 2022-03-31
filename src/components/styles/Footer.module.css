@@ -3,12 +3,13 @@
  margin-top: 12%;
 }
 .container{
-  background-color: rgb(255 139 139 / 48%);
+  background-color:rgb(34 34 34);;
   padding: 20px 0px 50px 0px;
 }
 .flexContainer{
+  color: white;
   padding-top: 60px;
-  font-size: 10px;
+  font-size: 15px;
   display: flex;
   width: 90%;
   justify-content: space-around;

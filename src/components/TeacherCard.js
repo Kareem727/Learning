@@ -63,15 +63,15 @@ const TeacherCard =()=> {
         </div>
       </div>
       <div className="search-teacher-card_left__top__info">
-        <h1>Kareem</h1>
-        <p>Native English Speaker with 10+ Years of Experience</p>
+        <h1>{t("Card_N")}</h1>
+        <p>{t("Card_P1")}</p>
         <div className="search-teacher-card-divider"></div>
-        <p>Teaches</p>
+        <p>{t("Card_P2")}</p>
         <div className='flexy'>
-        <h2>Arabic</h2>
+        <h2>{t("Card_h1")}</h2>
         <h2>,</h2>
 
-        <h2>English</h2>
+        <h2>{t("Card_h2")}</h2>
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@ const TeacherCard =()=> {
         <p>
         {20} 
         <br/>
-        <span>LESSONS</span>
+        <span>{t("Card_L")}</span>
         </p>
         <div>Book</div>
       </div>
@@ -101,7 +101,7 @@ const TeacherCard =()=> {
         <div className="teacher-card-rate">
           <div className="teacher-card-hourly">
             <p>
-              <span>Hourly Rate From</span>
+              <span>{t("Card_S")}</span>
             </p>
             <h2 className="teacher-price-rate">
               <span>USD 25$</span>

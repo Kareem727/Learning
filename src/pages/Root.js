@@ -18,7 +18,7 @@ const  Root =() => {
 
     <NavBar/>
     <Filter/>
-    <Guide/>
+    {/* <Guide/> */}
     <WrapCards/>
     
     <Recommend/>

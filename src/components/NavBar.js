@@ -6,8 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useTranslation } from 'react-i18next';
 import  '../components/styles/NavBar.css';
 import LanguageSwitcher from './LanguageSwitcher';
-// import data from '../../public/locales'
-const NavBar =()  =>{
+ const NavBar =()  =>{
    const { t } = useTranslation();
 
     const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -29,7 +28,7 @@ const NavBar =()  =>{
             }>
             <ul>
               <li>
-                <a to="/">{t([0].{'Nav_H'})}</a>
+                <a to="/">{t("Nav_H")}</a>
               </li>
               <li>
                 <a to="/about">{t("Nav_A")}</a>

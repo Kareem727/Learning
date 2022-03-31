@@ -23,6 +23,29 @@ li {
 /* 
  
 /* navbar style start  */
+.select{
+width: 50px;
+
+}
+.select select{
+     /* height: 29px; */
+     width: 73px;
+     /* border-bottom-right-radius: 10%; */
+     color: #e83b2f !important;
+     border-radius: 10px;
+     padding: 5px;
+     font-size: 12px;
+     background-color: #f1f1f1;
+ }
+ .select option{
+  width: 73px;
+  color: #e83b2f !important;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #f1f1f1;
+ }
+ 
 
 .main-nav {
   position: relative;
@@ -44,6 +67,8 @@ li {
 
 .menu-link {
   grid-column: 3/4;
+  width: 94%;
+  margin-left: 45%;
 }
 
 .menu-link ul {
